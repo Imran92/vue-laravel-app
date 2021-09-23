@@ -9,7 +9,7 @@ It is a very basic resource management system, performing basic CRUD.
 
 ## A little bit about the backend architecture
 
-The backend functions as an API for the frontend. There's no authentication here. There's one controller for serving the data to frontend. Only one Razor page is used for serving as the Root of the Vue App.
+The backend functions as an API for the frontend. There's no authentication here. There's one controller for serving the data to frontend and another one for the admins for managing the data. Only one Razor page is used for serving as the Root of the Vue App.
 
 Though not needed in the scope or scale of the project, repository pattern is used for demonstration purpose. IOC is used with Provider for injecting Service and Repository.
 
